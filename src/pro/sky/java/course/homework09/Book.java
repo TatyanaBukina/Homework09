@@ -20,17 +20,11 @@ public class Book {
         return bookName;
     }
 
-    public void setBookName(String bookName) {
-        this.bookName = bookName;
-    }
-
     public Author getAuthor() {
         return author;
     }
 
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
+
 
     public int getPublicYear() {
         return publicYear;
